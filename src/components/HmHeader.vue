@@ -1,5 +1,4 @@
 <template>
-
 </template>
 
 <script>
@@ -14,6 +13,7 @@ export default {}
   text-align: center;
   align-items: center;
   background: #f4f4f4;
+
   .left,
   .right {
     width: 30px;

@@ -11,6 +11,7 @@
       <slot></slot>
     </div>
     <div class="right"></div>
+    <div>哈哈哈哈</div>
   </div>
 </template>
 
@@ -26,6 +27,7 @@ export default {}
   text-align: center;
   align-items: center;
   background: #f4f4f4;
+
   .left,
   .right {
     width: 30px;

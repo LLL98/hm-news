@@ -20,12 +20,21 @@ Vue.component('hm-header', HmHeader)
 import HmLogo from './components/HmLogo.vue'
 Vue.component('hm-logo', HmLogo)
 
+import HmButton from './components/HmButton.vue'
+Vue.component('hm-button', HmButton)
+
 // 全局定义axios
 import axios from 'axios'
 // 设置axios请求的基地址
 axios.defaults.baseURL = 'http://localhost:3000'
 // 将axios挂载到vue实例上
 Vue.prototype.$axios = axios
+
+
+// 引入 vant 组件
+import { Field, Toast } from 'vant';
+Vue.use(Field);
+Vue.use(Toast);
 
 
 new Vue({

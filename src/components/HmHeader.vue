@@ -1,4 +1,17 @@
 <template>
+  <div class="hm-header">
+    <div class="left">
+      <i
+        class="iconfont iconjiantou2"
+        @click="$router.back()"
+        v-if="$route.path !== '/login'"
+      ></i>
+    </div>
+    <div class="center">
+      <slot></slot>
+    </div>
+    <div class="right"></div>
+  </div>
 </template>
 
 <script>

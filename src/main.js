@@ -17,6 +17,9 @@ import 'lib-flexible'
 import HmHeader from './components/HmHeader.vue'
 Vue.component('hm-header', HmHeader)
 
+import HmLogo from './components/HmLogo.vue'
+Vue.component('hm-logo', HmLogo)
+
 // 全局定义axios
 import axios from 'axios'
 // 设置axios请求的基地址
